@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" prefHeight="450.0" prefWidth="450.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testeintelij.HelloController">
+   <children>
+      <Label layoutX="76.0" layoutY="173.0" text="Login">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="74.0" layoutY="239.0" text="Senha">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <TextField fx:id="txtLogin" layoutX="133.0" layoutY="165.0" prefHeight="38.0" prefWidth="238.0" />
+      <ImageView fx:id="logoPastos" fitHeight="50.0" fitWidth="162.0" layoutX="148.0" layoutY="56.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../logo.png" />
+         </image>
+      </ImageView>
+      <PasswordField fx:id="txtSenha" layoutX="133.0" layoutY="231.0" prefHeight="38.0" prefWidth="238.0" />
+      <Button fx:id="btnEntrar" layoutX="186.0" layoutY="310.0" mnemonicParsing="false" onAction="#handleEntrarButton" prefHeight="50.0" prefWidth="77.0" style="-fx-background-color: #54A040;" text="Entrar" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="16.0" />
+         </font>
+      </Button>
+      <Label fx:id="lblMensagemLogin" alignment="CENTER" layoutX="225.0" layoutY="395.0" prefHeight="26.0" prefWidth="0.0" text="  " textAlignment="CENTER">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </Label>
+
+   </children>
+</AnchorPane>

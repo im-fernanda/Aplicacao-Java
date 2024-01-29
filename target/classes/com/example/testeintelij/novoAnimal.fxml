@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<TitledPane animated="false" prefHeight="430.0" prefWidth="450.0" text="Cadastro de Novo Animal" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.testeintelij.NewAnimalController">
+   <content>
+      <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0" style="-fx-background-color: #ffffff;">
+         <children>
+            <TextField fx:id="txtAnimalNome" layoutX="70.0" layoutY="109.0" prefHeight="32.0" prefWidth="252.0" />
+            <Label layoutX="172.0" layoutY="25.0" text="Novo Animal">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="16.0" layoutY="114.0" text="Nome ">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="175.0" text="Data de Nascimento">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtAnimalDataNasc" layoutX="163.0" layoutY="170.0" prefHeight="32.0" prefWidth="128.0" />
+            <Button fx:id="btnSalvarAnimal" layoutX="195.0" layoutY="333.0" mnemonicParsing="false" onAction="#handleBtnSalvarAnimal" text="Salvar">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Button>
+            <Label layoutX="333.0" layoutY="115.0" text="Sexo">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtAnimalPeso" layoutX="342.0" layoutY="171.0" prefHeight="36.0" prefWidth="90.0" />
+            <TextField fx:id="txtAnimalSexo" layoutX="375.0" layoutY="108.0" prefHeight="35.0" prefWidth="53.0" promptText="F ou M" />
+            <Label layoutX="300.0" layoutY="177.0" text="Peso">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Label layoutX="136.0" layoutY="240.0" text="Espécie">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtAnimalEspecie" layoutX="194.0" layoutY="236.0" prefHeight="35.0" prefWidth="96.0" />
+            <Label layoutX="17.0" layoutY="241.0" text="Status">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtAnimalStatus" layoutX="66.0" layoutY="237.0" prefHeight="32.0" prefWidth="63.0" />
+            <Label layoutX="304.0" layoutY="241.0" text="Gestante">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <TextField fx:id="txtAnimalGest" layoutX="380.0" layoutY="236.0" prefHeight="35.0" prefWidth="48.0" promptText="N/A" />
+         </children>
+      </AnchorPane>
+   </content>
+</TitledPane>
