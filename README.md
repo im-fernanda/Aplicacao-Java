@@ -8,7 +8,7 @@
 </p>
 
 <p align="justify">
-    <b>Aplicação que simula o gerenciamento do setor de Caprinos, incluindo monitoramento de funcionários, remédios, animais, vacinas e tarefas.</b>
+    <b>Aplicação para o gerenciamento do setor de Caprinos, incluindo monitoramento de funcionários, remédios, animais, vacinas e tarefas.</b>
 </p>
 
 <h2 id="tech">💻 Tecnologias</h2>
