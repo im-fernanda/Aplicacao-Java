@@ -8,7 +8,8 @@
 </p>
 
 <p align="justify">
-    <b>Aplicação para o gerenciamento do setor de Caprinos, incluindo monitoramento de funcionários, remédios, animais, vacinas e tarefas.</b>
+  <b>Este projeto foi desenvolvido como parte da disciplina de Vertentes das Ciências Agrárias do curso de TADS da UFRN. O objetivo principal é demonstrar o uso de um gerenciador para o setor de Caprinos, incluindo monitoramento de funcionários, remédios, animais, vacinas e tarefas.</b>
+    
 </p>
 
 <h2 id="tech">💻 Tecnologias</h2>
