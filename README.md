@@ -7,7 +7,7 @@
  <a href="#colab">Colaboradores</a> 
 </p>
 
-<p align="center">
+<p align="justify">
     <b>Aplicação que simula o gerenciamento do setor de Caprinos, incluindo monitoramento de funcionários, remédios, animais, vacinas e tarefas.</b>
 </p>
 
@@ -43,7 +43,7 @@
     </td>
     <td align="center">
       <a href="#">
-        <img src="https://avatars.githubusercontent.com/andrelGermano" width="75px" alt="André Profile Picture"/><br>
+        <img src="https://avatars.githubusercontent.com/andrelGermano" width="103px" alt="André Profile Picture"/><br>
         <sub>
           <b>André Lucas</b>
         </sub>
