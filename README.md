@@ -26,9 +26,10 @@
        senha: 123
 
 <h3>Pré-requisitos</h3>
-- JavaFX <br/>
-- [JavaFX install & setup (IntelliJ)] (https://www.youtube.com/watch?v=Ope4icw6bVk&list=PLZPZq0r_RZOM-8vJA3NQFZB7JroDcMwev)
 
+[JavaFX](https://gluonhq.com/products/javafx/)
+
+[JavaFX install & setup (IntelliJ)](https://www.youtube.com/watch?v=Ope4icw6bVk&list=PLZPZq0r_RZOM-8vJA3NQFZB7JroDcMwev)
 
 <h2 id="colab">🤝 Colaboradores</h2>
 
